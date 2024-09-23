@@ -171,9 +171,10 @@ export const ResumeButton = styled.a`
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    width: 95%;
-    max-width: 300px;
+    width: 50%;
+    max-width: 200px;
     text-align: center;
+    margin-left:5%;
     padding: 16px 0;
     color:${({ theme }) => theme.white};
     border-radius: 20px;

@@ -73,7 +73,7 @@ export const NavLink = styled.a`
 `;
 
 
-export const GitHubButton = styled.a`
+export const CallButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
   display: flex;
