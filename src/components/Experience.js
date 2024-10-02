@@ -14,7 +14,7 @@ import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
-    <VerticalTimelineElement
+    <VerticalTimelineElement 
       contentStyle={{
         background: "#1d1836",
         color: "#fff",
@@ -59,7 +59,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} id="experience">
         <p className={`${styles.sectionSubText} text-center text-white`} style={{color:'white'}}>
           What I have done so far
         </p>
