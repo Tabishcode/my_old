@@ -27,11 +27,11 @@ export const Bio = {
 
 export  const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Engineer",
+    company_name: "Upwork",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - Now",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -40,11 +40,11 @@ export  const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Verification Engineer",
+    company_name: "Comira Solutions",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - Now",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -53,11 +53,11 @@ export  const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Full stack developer - Level2 seller",
+    company_name: "Fiverr",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2021 - now",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
