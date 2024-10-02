@@ -14,23 +14,9 @@ import {
 import { FaBars } from "react-icons/fa";
 import { FaSquareUpwork } from "react-icons/fa6";
 import { useTheme } from "styled-components";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
-// Keyframes for the continuous pulsing animation
-const pulse = keyframes`
-  0% {
-    transform: scale(1);
-    box-shadow: 0 0 10px rgba(107, 200, 83, 0.5);
-  }
-  50% {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(107, 200, 83, 0.7);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 0 10px rgba(107, 200, 83, 0.5);
-  }
-`;
+
 
 
 

@@ -10,6 +10,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience.js";
+import Education from "./components/Education.js";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import Feedbacks from "./components/Feedbacks.jsx";
@@ -41,6 +42,7 @@ function App() {
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
+            <Education />
             <Feedbacks/>
             <Contact />
           </Wrapper>
