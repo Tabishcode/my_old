@@ -65,7 +65,8 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact"
+    <div
+      id="contact"
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
@@ -115,11 +116,36 @@ const Contact = () => {
           </label>
 
           <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit  font-bold shadow-md shadow-primary"
+            className="
+    appearance-none 
+    text-center 
+    w-1/2 
+    max-w-xs 
+    ml-5 
+    px-0 
+    py-4 
+    text-white 
+    rounded-2xl 
+    cursor-pointer 
+    text-xl 
+    font-semibold 
+    transition-all 
+    duration-200 
+    ease-in-out 
+    bg-gradient-to-br 
+    from-purple-500 
+    to-pink-500 
+    shadow-lg 
+    hover:scale-105 
+    hover:brightness-100 
+    md:py-3 
+    md:text-lg  shadow-primary
+  "
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+         
         </form>
       </motion.div>
 
