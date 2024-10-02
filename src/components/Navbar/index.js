@@ -32,15 +32,7 @@ const pulse = keyframes`
   }
 `;
 
-// Keyframes for the hover bounce effect
-const bounce = keyframes`
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-`;
+
 
 // Styled component for the button with continuous pulsing effect
 const AnimatedButton = styled(CallButton)`
@@ -52,7 +44,7 @@ const AnimatedButton = styled(CallButton)`
   border-radius: 5px;
   font-size: 1.1rem;
   font-weight: bold;
-  &:hover {animation: ${pulse} 1.5s infinite; /* Continuous pulsing animation */
+  &:hover { /* Continuous pulsing animation */
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px rgba(107, 200, 83, 0.5);
