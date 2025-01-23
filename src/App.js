@@ -13,8 +13,7 @@ import Experience from "./components/Experience.js";
 import Education from "./components/Education.js";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
-import Feedbacks from "./components/Feedbacks.jsx";
-
+import Testimonails from "./components/Testimonails.jsx";
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -32,7 +31,7 @@ function App() {
   console.log(openModal)
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Router >
+      <Router>
         <Navbar />
         <Body>
           <HeroSection />
@@ -43,13 +42,13 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
-            <Feedbacks/>
+            <Testimonails />
             <Contact />
           </Wrapper>
           <Footer />
-          {openModal.state &&
+          {openModal.state && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          }
+          )}
         </Body>
       </Router>
     </ThemeProvider>

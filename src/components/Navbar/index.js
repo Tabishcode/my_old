@@ -64,9 +64,9 @@ const Navbar = () => {
         <NavLogo to="/" className="text-white text-3xl font-bold space-x-1">
           <span className="text-[#854CDA] text-3xl">{"<"}</span>
 
-          <span className="">Hassan</span>
+          <span className="">Tabish</span>
           <span className="text-[#854CDA]">{"/"}</span>
-          <span className="">Ali</span>
+          <span className="">Akhtar</span>
           <span className="text-[#854CDA] text-3xl">{">"}</span>
           {/* <DiCssdeck size="3rem" /> <Span>Portfolio</Span> */}
         </NavLogo>
@@ -84,7 +84,7 @@ const Navbar = () => {
           <AnimatedButton
             style={{ display: "flex", alignItems: "center" }}
             href={
-              "https://www.upwork.com/freelancers/~0130423deb04b204f0?referrer_url_path=%2Fnx%2Fsearch%2Ftalent%2Fdetails%2F~0130423deb04b204f0%2Fprofile"
+              " "
             }
             target="_blank"
           >
@@ -118,7 +118,7 @@ const Navbar = () => {
                 color: "white",
                 width: "max-content",
               }}
-              href="https://www.upwork.com/freelancers/~0130423deb04b204f0?referrer_url_path=%2Fnx%2Fsearch%2Ftalent%2Fdetails%2F~0130423deb04b204f0%2Fprofile"
+              href=" "
               target="_blank"
             >
               Hire Me @ Upwork
