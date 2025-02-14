@@ -1,9 +1,7 @@
 import {
   
-  meta,
   starbucks,
   tesla,
-  shopify,
   
 } from "../assets";
 
@@ -13,8 +11,8 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/tabishcode/",
-  resume: "https://github.com//",
-  linkedin: "https://www.linkedin.com/in/tabish-akhtar/",
+  resume: "https://github.com/tabishcode/",
+  linkedin: "https://www.linkedin.com/in/tabish-dev/",
   twitter: "",
   insta: "",
   facebook: "",
@@ -22,84 +20,49 @@ export const Bio = {
 
 export  const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Upwork",
+    title: "Frontend Development and Web Scraping",
+    company_name: "Freelance",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2023 - Now",
+    date: "Sep 2024 - Nov 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a 6-page front-end in Next.js for a client, based on a design file provided in Figma.",
+      "Performed web scraping for more than 10 websites for 3 clients.",
     ],
   },
   {
-    title: "Verification Engineer",
-    company_name: "Comira Solutions",
+    title: "Web Developer Intern",
+    company_name: "MadniSofts.com",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Now",
+    date: "June 2024 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a team member to develop a landing page based on a Figma design.",
+      "Developed a custom landing page for a food startup website similar to foodpanda.",
+      "Converted website code from HTML/CSS/JS to the React.js framework",
     ],
   },
-  {
-    title: "Full stack developer - Level2 seller",
-    company_name: "Fiverr",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2021 - now",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
+  
 ];
 export const education = [
   {
-    title: "Bsc. Computer Engineering",
+    title: "Bsc. Computer Science",
     company_name: "UET Lahore",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2019 - April 2023",
+    date: "December 2022 - May 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Coursework: Software Engineering, Software Project Management, Cloud Computing, Design Patterns,Object-Oriented Programming, Data Structures and Algorithms, Databases",
     ],
   },
   {
     title: "FSC. Pre Engineering",
-    company_name: "GCU Lahore",
+    company_name: "PGC Kot Addu",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "Jan 2019 - Feb 2021",
+    points: ["Coursework: Maths, Physics, Chemistry, English, Urdu"],
   },
 ];
 export const testimonials = [
@@ -220,31 +183,7 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-    ],
-  },
+  
   {
     title: "Others",
     skills: [

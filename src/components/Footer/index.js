@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Hassan Ali</Logo>
+        <Logo>Tabish Akhtar</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Hassan Ali. All rights reserved.
+          &copy; 2025 Tabish Akhtar. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

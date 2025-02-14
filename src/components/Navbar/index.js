@@ -12,7 +12,7 @@ import {
   MobileLink,
 } from "./NavbarStyledComponent";
 import { FaBars } from "react-icons/fa";
-import { FaSquareUpwork } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 import { useTheme } from "styled-components";
 import styled from "styled-components";
 
@@ -83,14 +83,12 @@ const Navbar = () => {
         <ButtonContainer>
           <AnimatedButton
             style={{ display: "flex", alignItems: "center" }}
-            href={
-              " "
-            }
+            href="https://github.com/tabishcode"
             target="_blank"
           >
-            <FaSquareUpwork style={{ marginRight: "8px" }} />
+            <FaGithub style={{ marginRight: "8px" }} />
             <UpworkText>
-              HIRE me @<span className="font-montserrat">Upwork</span>
+              <span className="font-montserrat">Github</span>
             </UpworkText>
           </AnimatedButton>
         </ButtonContainer>
@@ -118,10 +116,10 @@ const Navbar = () => {
                 color: "white",
                 width: "max-content",
               }}
-              href=" "
+              href="https://github.com/tabishcode"
               target="_blank"
             >
-              Hire Me @ Upwork
+              Github
             </AnimatedButton>
           </MobileMenu>
         )}
